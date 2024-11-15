@@ -7,9 +7,8 @@ app = express();
 app.use(express.json());
 
 
-
 app.get('/', function (req, res) {
-    res.send("hello word")
+    res.send("hello world")
 });
 
 app.get('/morning', function (req, res) {
